@@ -31,20 +31,20 @@ Octave is free software licensed under the GNU General Public License (GPL). Ass
 
 hg clone https://www.octave.org/hg/octave
 
-#####Installing Octave on MacOS X
+## Installing Octave on MacOS X
 
 The Wiki has some instructions for [installing Octave on OS X systems](http://wiki.octave.org/Octave_for_MacOS_X)
 
-#####Installing Octave on Windows
+## Installing Octave on Windows
 
 Windows binaries with corresponding source code can be downloaded from [here](https://ftp.gnu.org/gnu/octave/windows/)
 
 ---
 
-##Usage Information
+## Usage Information
 
 * Download zip
-* Extract and add the emails you want to test(in .txt format) in "TestEmails" folder.
+* Extract and add the emails you want to test(in .txt format) in "data" folder.
 * Start the terminal and enter the following command to start octave
 
   `octave`
@@ -53,3 +53,5 @@ Windows binaries with corresponding source code can be downloaded from [here](ht
 * Enter the command
 
   `index`
+
+  and run spam_classifier.m
